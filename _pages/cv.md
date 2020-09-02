@@ -1,34 +1,34 @@
 ---
 layout: archive
-title: "Resume"
+title: "简历"
 permalink: /cv/
 author_profile: true
 classes: wide
 ---
 
-Education
+教育经历
 -----
-* M.S. in Geomatics Engineering, University of Stuttgart, 2020
-* B.S. in Remote Sensing Science and Technology, Wuhan University, 2018
+* 2018-2021：斯图加特大学，地理信息工程，硕士
+* 2014-2018：武汉大学，遥感科学与技术，学士
 
-Work experience
+工作经历
 -----
-* 2020/04-2020/07:  Intern
-  * Perception System Group, Stuttgart Technology Center, Sony Europe
-  * Project: Radar based SLAM
+* 2020/04-2020/07:  实习
+  * 索尼斯图加特研发中心，感知系统组
+  * 项目: 基于毫米波雷达的行进姿态、定位和制图
 
-* 2019/11-2020/02:  Student Research Assistant
-  * Institute for Navigation, University of Stuttgart
-  * Project: GNSS software
-  * Supervisor: Prof. Dr. techn. Thomas Hobiger
+* 2019/11-2020/02:  学生助理
+  * 斯图加特大学，导航所
+  * 项目: GNSS软件开发
+  * 导师: Prof. Dr. techn. Thomas Hobiger
   
-Interests
+研究兴趣
 -----
-* Remote Sensing & Photogrammetry
-* SLAM & autonomous navigation
-* Computer Vision & Machine Learning
+* 摄影测量与遥感
+* 机器学习与计算机视觉
+* SLAM
 
-Publications
+论文
 -----
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}

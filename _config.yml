@@ -15,7 +15,7 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 title                    : "Yi's site"
 title_separator          : "-"
 subtitle                 : "You Only Live Once." # site tagline that appears below site title in masthead
@@ -275,6 +275,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  zh:
+    output: true
+    permalink: /:collection/:title/
 
 # Defaults
 defaults:
